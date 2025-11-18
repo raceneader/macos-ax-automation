@@ -2,7 +2,7 @@
 
 > **LLM-powered macOS accessibility automation framework**
 
-A comprehensive toolkit for automating macOS applications through accessibility APIs, featuring LLM-powered natural language control, state machine-based execution, and a robust Swift/Python architecture.
+An attempting at automatics applications through accessibility APIs, featuring LLM-powered natural language control, state machine-based execution, and a robust Swift/Python architecture.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
@@ -13,7 +13,7 @@ A comprehensive toolkit for automating macOS applications through accessibility 
 - 🤖 **LLM-Powered Automation** - Control applications using natural language with OpenAI integration
 - 🎯 **Goal-Based Execution** - State machine architecture for reliable multi-step automation
 - 🔍 **Accessibility Explorer** - Inspect and interact with any macOS application's UI elements
-- 🐍 **Python & Swift** - High-performance Swift core with elegant Python bindings
+- 🐍 **Python & Swift** - Swift core with Python bindings
 - 📊 **Excel Automation** - Pre-built examples for Microsoft Excel control
 - 🎨 **Visual Feedback** - Built-in Tkinter UI for monitoring automation progress
 - 🛠️ **Extensible** - Easy to add support for new applications
@@ -243,42 +243,3 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Apple Accessibility APIs
-- OpenAI GPT-4 for LLM capabilities
-- PyObjC project for Python-ObjC bridge inspiration
-- The accessibility testing community
-
-## 📚 Documentation
-
-- [Swift API Documentation](axplorer/lib/AXplorer/README.md)
-- [Python API Documentation](axplorer/py/README.md)
-- [Examples Guide](axplorer/py/examples/README.md)
-
-## 🔒 Security
-
-- **Never commit API keys** to the repository
-- Use environment variables for sensitive credentials
-- Review [CONTRIBUTING.md](CONTRIBUTING.md) for security best practices
-
-## 💬 Support
-
-- 📫 Report bugs via [GitHub Issues](https://github.com/raceneader/macos-ax-automation/issues)
-- 💡 Request features via [GitHub Issues](https://github.com/raceneader/macos-ax-automation/issues)
-- 📖 Check existing documentation in the `/docs` directory
-
-## 🗺️ Roadmap
-
-- [ ] Support for additional applications (Keynote, Pages, Numbers)
-- [ ] Windows and Linux platform support
-- [ ] Enhanced error recovery mechanisms
-- [ ] Performance optimizations
-- [ ] Extended LLM model support (Anthropic, etc.)
-- [ ] Browser automation capabilities
-- [ ] Recording and playback features
-
----
-
-Made with ❤️ for the macOS automation community
