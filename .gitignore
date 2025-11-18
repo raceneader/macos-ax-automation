@@ -1,0 +1,47 @@
+# General
+.DS_Store
+debug/
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Xcode
+*.xcodeproj/xcuserdata/
+*.xcuserdatad
+*.xcscmblueprint
+project.xcworkspace
+DerivedData/
+build/
+.build/
+/Packages
+.swiftpm/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.dylib
+.env
+.venv
+poetry.lock
+
+# Python Distribution / Packaging
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+*.whl
+*.tar.gz

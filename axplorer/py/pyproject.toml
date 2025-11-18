@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "AXplorer"
+version = "0.1.0"
+description = "Cross-platform accessibility testing library with native platform implementations"
+authors = ["Nace Reader <nace.reader@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "axplorer", from = "src" },
+    { include = "examples" }
+]
+package-mode = true
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyobjc = "^11.0"
+pyaml = "^25.1.0"
+openai = "^1.60.1"
+tk = "^0.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

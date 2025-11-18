@@ -1,0 +1,3 @@
+"""
+Excel LLM examples package.
+"""
